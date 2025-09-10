@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NavBard from './components/NavBard'
+import AnimatedBackground from './components/AnimatedBackground'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <div>
+      <AnimatedBackground/>
       <NavBard/>
     </div>
       
